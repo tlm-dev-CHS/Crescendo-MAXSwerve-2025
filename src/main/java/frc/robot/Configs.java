@@ -10,10 +10,10 @@ import frc.robot.Constants.PID;
 
 public class Configs {
     public static class ArmExtension {
-        public static EncoderConfig encoderConfig;
+        public static EncoderConfig encoderConfig = new EncoderConfig();
 
-        public static ClosedLoopConfig closedLoopConfig;
-        public static MAXMotionConfig motionConfig;
+        public static ClosedLoopConfig closedLoopConfig = new ClosedLoopConfig();
+        public static MAXMotionConfig motionConfig = new MAXMotionConfig();
 
         static {
             encoderConfig
@@ -41,10 +41,10 @@ public class Configs {
     }
 
     public static class ArmRotation {
-        public static EncoderConfig encoderConfig;
+        public static EncoderConfig encoderConfig = new EncoderConfig();
 
-        public static ClosedLoopConfig closedLoopConfig;
-        public static MAXMotionConfig motionConfig;
+        public static ClosedLoopConfig closedLoopConfig = new ClosedLoopConfig();
+        public static MAXMotionConfig motionConfig = new MAXMotionConfig();
 
         static {
             encoderConfig
